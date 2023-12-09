@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background: whitesmoke;
+}
+.about {
+  color: rgb(34, 75, 75);
+  width: 50%;
+  height: 100%;
+  text-align: Center;
+  margin: 100px 20px;
+  position: relative;
+  
+}
+h1{
+  color: rgb(34, 75, 75);
+  font-weight: bold;
+  padding: 10px 0px;
+  font-size: 60px;
+  margin bottom: 20px;
+  margin
+}
+footer {
+  position: absolute;
+  bottom: 0%;
+  left: 6%;
+}
+
+.education {
+  margin-top: ;
+  margin-bottom: 30px;
+}
+.hobbies {
+  margin-bottom: 30px;
+}
+.images {
+  width: 50%;
+  position: absolute;
+  left: 60%; 
+  top:20px
+}
+
+.contact-button {
+  width: 8%;
+  background-color: rgb(34, 54, 48);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 0;
+  margin-right: 12px;
+  margin-left: 320px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+  position: absolute;
+  top: 65%;
+  text-align: center;
+}
+.contact-button:hover {
+  opacity: 0.8;
+
+}
