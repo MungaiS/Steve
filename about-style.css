@@ -3,65 +3,108 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  /* background-color:rgb(34, 75, 75); */
 }
 body{
-  background: whitesmoke;
+  overflow:hidden;
+  background-image: url(./wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 110px;
+  position: relative;
+}
+.logo{
+  width: 120px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: large;
+}
+a:hover{
+  color: bisque;
+}
+p{
+  font-size: 1.2em;
+}
+
 .about {
-  color: rgb(34, 75, 75);
+  color: whitesmoke;
+  position: absolute;
+  top: 15%;
+  left: 100px;
   width: 50%;
   height: 100%;
   text-align: Center;
-  margin: 100px 20px;
-  position: relative;
+  margin: 50px 20px;
+  
   
 }
 h1{
-  color: rgb(34, 75, 75);
+  color: greenyellow;
   font-weight: bold;
   padding: 10px 0px;
   font-size: 60px;
-  margin bottom: 20px;
-  margin
+  margin-bottom: 20px;
+  /* margin */
+}
+h2 {
+  color: greenyellow;
 }
 footer {
   position: absolute;
-  bottom: 0%;
-  left: 6%;
+  bottom: 00%;
+  left: 110px;
+  color: whitesmoke;
 }
 
 .education {
-  margin-top: ;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 .hobbies {
   margin-bottom: 30px;
 }
 .images {
+  float: right;
   width: 50%;
+  height: 5vh;
   position: absolute;
-  left: 60%; 
-  top:20px
+  left: 70%; 
+  top:120px;
+  /* display: none; */
 }
 
 .contact-button {
-  width: 8%;
-  background-color: rgb(34, 54, 48);
-  color: white;
+  width: 5%;
+  background-color: rgb(43, 30, 30);
+  color:  whitesmoke;
   border: none;
   border-radius: 2px;
   cursor: pointer;
   margin-top: 0;
   margin-right: 12px;
   margin-left: 320px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
   transition: opacity 0.15s;
   vertical-align: top;
   position: absolute;
-  top: 65%;
+  top: 85%;
+  left: 150px;
   text-align: center;
 }
 .contact-button:hover {

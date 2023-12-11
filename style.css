@@ -6,7 +6,16 @@
 }
 
 body {
-  background: whitesmoke;
+  overflow: hidden;
+  background:rgb(34, 75, 75);
+  background-image: url(./wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  font-weight: bold;
+  font-size: 3em;
+  color: yellowgreen;
 }
 
 .header{
@@ -22,24 +31,24 @@ body {
 nav ul li{
   display: inline-block;
   list-style: none;
-  margin: 10px 10px;
+  margin: 10px 20px;
     
 }
 nav ul li a {
   text-decoration: none;
-  color: rgb(34, 75, 75);
+  color: whitesmoke;
   font-weight: bold;
   font-size: large;
 }
 
 a:hover{
-  color: brown
+  color: bisque;
 }
 
 .main-section{
   margin-left: 8%;
-  margin-top: 15%;
-  color: rgb(34, 75, 75);
+  margin-top: 10%;
+  color: whitesmoke;
 }
 .main-section h1 {
   margin-bottom: 20px;
@@ -47,21 +56,26 @@ a:hover{
 }
 .main-section h2 {
   margin-bottom: 20px;
+  font-size: 2em;
 }
 .main-section p{
-  font-size: medium;
+  font-size: 1.5em;
 
 }
 
 .cv{
-  background: rgb(34, 75, 75);
+  background:greenyellow;
   padding: 10px 18px;
   text-decoration: none;
   font-weight: bold;
-  color: white;
+  color:  black;
   display: inline-block;
   margin: 30px 0px;
   border-radius: 5px;
+}
+.cv a:hover  {
+  color: yellow;
+
 }
 .profile-photo {
   position: absolute;
@@ -72,6 +86,6 @@ a:hover{
 }
 footer {
   position: absolute;
-  bottom: 2%;
-  left: 6%;
+  bottom: 0%;
+  left: 110px;
 }
